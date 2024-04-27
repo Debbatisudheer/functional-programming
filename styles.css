@@ -33,23 +33,16 @@ strong {
     color: black;
 }
 
-.prev {
-    background-color: #f4f4f4;
-    padding: 10px;
-    margin: 20px;
-    border-radius: 5px;
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    font-size: 14px;
-    line-height: 1.5;
-    overflow-x: auto;
+pre {
+  background-color: #45A29E;
+  padding: 10px;
+  overflow-x: auto;
+  border-radius: 6px;
 }
+code {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 14px;
 
-/* Style for the code within the block */
-.prev code {
-    display: block;
-    white-space: pre;
-    color: #333;
-}
 /* Footer Styles */
 footer {
   background-color: #0BC6AB;
@@ -68,11 +61,13 @@ footer {
         border-radius: 10px;
     }
 
-    .prev {
-        margin: 10px;
-        font-size: 12px;
-    }
-    code {
+   pre {
+  background-color: #45A29E;
+  padding: 10px;
+  overflow-x: auto;
+  border-radius: 6px;
+}
+code {
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   font-size: 10px;
 
