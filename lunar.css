@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #36454F;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #008080;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Change text color of container to white */
+}
+
+h2 {
+    color: #E7FFCE;
+    text-align: center;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: black;
+}
+
+.prev {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-x: auto;
+}
+
+/* Style for the code within the block */
+.prev code {
+    display: block;
+    white-space: pre;
+    color: #333;
+}
+/* Footer Styles */
+footer {
+  background-color: #0BC6AB;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+
+    .prev {
+        margin: 10px;
+        font-size: 12px;
+    }
+    code {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 10px;
+
+}
+/* Footer Styles */
+footer {
+    background-color: #32612D;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+}
