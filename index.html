@@ -890,7 +890,8 @@ if __name__ == "__main__":
                 distance_from_moon_center = moon_radius + altitude
 
                 # Calculate the gravitational force exerted on the lander by the moon
-                gravity_force = calculate_gravitational_force(lander_mass, moon_gravitational_constant, distance_from_moon_center)
+                gravity_force = calculate_gravitational_force
+            (lander_mass, moon_gravitational_constant, distance_from_moon_center)
 
                 # Calculate acceleration due to gravity
                 acceleration = calculate_acceleration(gravity_force, lander_mass)
@@ -911,7 +912,8 @@ if __name__ == "__main__":
                     print("Warning: Descent velocity exceeds maximum safe velocity!")
 
                 # Output information for each iteration
-                print(f"Iteration {i+1}: Altitude: {final_position:.2f} meters, Velocity: {initial_velocity:.2f} m/s, Acceleration: {acceleration:.2f} m/s^2")
+                print(f"Iteration {i+1}: Altitude: {final_position:.2f} meters, Velocity: {initial_velocity:.2f} m/s, 
+                    Acceleration: {acceleration:.2f} m/s^2")
 
                 # Add a delay to simulate the 5-second interval
                 time.sleep(time_interval)
@@ -1014,7 +1016,8 @@ Iteration 10: Altitude: 99672.79 meters, Velocity: -23.95 m/s, Acceleration: 1.4
             telemetry_record = TelemetryData(timestamp, sensor_values)
 
             # Output information for each iteration
-            print(f"Iteration {i+1}: Timestamp: {telemetry_record.get_timestamp()}, Sensor Readings: {telemetry_record.get_sensor_reading('temperature')}°C,
+            print(f"Iteration {i+1}: Timestamp: {telemetry_record.get_timestamp()}, Sensor Readings: 
+        {telemetry_record.get_sensor_reading('temperature')}°C,
         {telemetry_record.get_sensor_reading('pressure')} hPa, {telemetry_record.get_sensor_reading('humidity')}% RH")
 
             # Add a delay to simulate the time interval
